@@ -17,3 +17,13 @@ nav a {
 nav a:hover {
   color: #ddd;
 }
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
+}

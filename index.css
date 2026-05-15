@@ -9,3 +9,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}

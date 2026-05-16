@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <h1>Bienvenue chez Abir</h1>
@@ -24,13 +23,20 @@
         </a>
         
     </nav>
-    <nav>
-        <a href="#accueil">Accueil</a>
-        <a href="#apropos">À propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#contact">Contact</a>
-    </nav>
+
+    <form class="form">
+        <input id="name" type="text" placeholder="envoyer votre nom">
+        <input id="email" type="email" placeholder="envoyer votre email">
+        <input id="password" type="password" placeholder="envoyer votre password">
+        <input id="age" type="number" placeholder="envoyer votre age">
+        <div class="mamanbtn">
+            <button id="submitbtn" class="button1">envoyer</button>
+        </div>
+
+    </form>
+
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
